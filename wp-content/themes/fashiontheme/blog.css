@@ -1,0 +1,15 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    display:flex;
+}
+
+.title{
+    font-family:'Abhaya Libre';
+    font-weight: 700;
+    margin-left:auto;
+    margin-right:auto;
+}
