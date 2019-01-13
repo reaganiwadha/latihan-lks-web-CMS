@@ -5,6 +5,8 @@ html,body{
 
 .navbar{
     display:flex;
+    align-items: center;
+    position:sticky;
 }
 
 .title{
@@ -12,4 +14,32 @@ html,body{
     font-weight: 700;
     margin-left:auto;
     margin-right:auto;
+}
+
+.menu-nav{
+    margin-left:1em;
+    cursor: pointer;
+}
+
+.row-content-1{
+    display:flex;
+}
+
+.row-content-1 > *{
+    width:50%;
+}
+
+.c1{
+}
+
+/* tablet */
+@media only screen and (max-width: 768px) and (min-width:321px) {
+    body{
+    }
+}
+
+@media only screen and (max-width:320px){
+    body{
+        background-color:green;
+    }
 }
