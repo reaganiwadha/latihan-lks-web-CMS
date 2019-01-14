@@ -173,6 +173,7 @@ footer > div > *{
     display:flex;
     margin-top:2em;
     margin-bottom:2em;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -220,10 +221,21 @@ footer > div > *{
 @media only screen and (max-width: 768px) and (min-width:321px) {
     body{
     }
+    .posts{
+        flex-direction: column;
+    }
+    .row-content-1{
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width:320px){
     body{
-        background-color:green;
+    }
+    .posts{
+        flex-direction: column;
+    }
+    .row-content-1{
+        flex-direction: column;
     }
 }
